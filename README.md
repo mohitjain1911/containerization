@@ -34,7 +34,7 @@ In this project, we'll be using the following tools:
 
 ## Project Workflow
 
-Here are the key steps involved in containerizing the VProfile application stack:\
+Here are the key steps involved in containerizing the VProfile application stack:
 
 1. **Dockerization Steps:**
    - Identify and find the right base images for services (nginx, TomCat, MySQL, MemCached, RabbitMQ) from Docker Hub.
