@@ -10,7 +10,7 @@ services:
     volumes:
       - vprodbdata:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=vprodbpass  # Removed extra space here
+      - MYSQL_ROOT_PASSWORD=vprodbpass  
   
   vprocache01:
     image: memcached 
